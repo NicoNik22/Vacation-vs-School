@@ -1,7 +1,5 @@
 # Vacation-vs-School
 
-
-[![Slope Chart](img/Time_spent_during_Vacation_and_School_day_by_Category.png)]\
 [Link to Tableau Public](https://public.tableau.com/views/TimepctVacation-School/TimespentduringVacationandSchooldaybyCategory?:language=it-IT&:display_count=n&:origin=viz_share_link)
 
 
@@ -43,7 +41,9 @@ Then, the `Duration` column is created by subtracting the current `Minutes` valu
 where F is the column `Minutes`.
 
 ### On Google Colab
+\
 [_Link to Python Notebook_](scripts/Tracking_Day.ipynb)\
+\
 The data analysis was performed in _Google Colab_. After connecting _Google Sheets_ and adjusting the data types, the actions were distinguished between vacation and school in a new variable called `Phase`.\
 Thanks to this distinction, it is possible to calculate the main statistics by grouping by `Phase` and `Category`.
 
